@@ -1,0 +1,15 @@
+{
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "n": 635,
+ "llm": {
+  "SARI": 34.0,
+  "chrF": 31.0,
+  "BLEU_char": 27.06,
+  "num_recall": 83.69,
+  "num_halluc_per100": 1.57,
+  "neg_lost_pct": 7.4,
+  "hard_terms_per_text": 1.609,
+  "len_ratio": 0.824
+ },
+ "metric_version": 3
+}

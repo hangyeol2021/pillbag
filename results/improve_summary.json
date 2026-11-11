@@ -1,0 +1,1534 @@
+{
+ "base": {
+  "V0": {
+   "weights": [
+    0,
+    0,
+    99,
+    0,
+    false
+   ],
+   "beam": "b4",
+   "metrics": {
+    "SARI": [
+     68.54,
+     0.34
+    ],
+    "chrF": [
+     71.69,
+     1.0
+    ],
+    "BLEU_char": [
+     74.38,
+     1.54
+    ],
+    "num_recall": [
+     76.01,
+     1.19
+    ],
+    "num_halluc_per100": [
+     18.58,
+     4.31
+    ],
+    "neg_lost_pct": [
+     4.93,
+     1.05
+    ],
+    "hard_terms_per_text": [
+     2.03,
+     0.08
+    ],
+    "len_ratio": [
+     0.53,
+     0.01
+    ],
+    "unseen_SARI": [
+     67.08,
+     0.38
+    ],
+    "unseen_rec": [
+     75.77,
+     1.31
+    ],
+    "unseen_neg": [
+     4.88,
+     1.31
+    ]
+   }
+  },
+  "V1": {
+   "weights": [
+    0.5,
+    1,
+    0,
+    0,
+    false
+   ],
+   "beam": "b4",
+   "metrics": {
+    "SARI": [
+     68.65,
+     0.33
+    ],
+    "chrF": [
+     72.81,
+     0.83
+    ],
+    "BLEU_char": [
+     75.91,
+     0.85
+    ],
+    "num_recall": [
+     80.38,
+     1.42
+    ],
+    "num_halluc_per100": [
+     17.01,
+     4.08
+    ],
+    "neg_lost_pct": [
+     3.41,
+     0.97
+    ],
+    "hard_terms_per_text": [
+     2.08,
+     0.08
+    ],
+    "len_ratio": [
+     0.55,
+     0.01
+    ],
+    "unseen_SARI": [
+     67.36,
+     0.37
+    ],
+    "unseen_rec": [
+     80.42,
+     1.48
+    ],
+    "unseen_neg": [
+     3.62,
+     0.85
+    ]
+   }
+  },
+  "V2": {
+   "weights": [
+    0.5,
+    1,
+    0,
+    0,
+    false
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     68.64,
+     0.34
+    ],
+    "chrF": [
+     72.78,
+     0.42
+    ],
+    "BLEU_char": [
+     76.09,
+     0.78
+    ],
+    "num_recall": [
+     81.05,
+     1.65
+    ],
+    "num_halluc_per100": [
+     11.6,
+     0.71
+    ],
+    "neg_lost_pct": [
+     3.78,
+     1.1
+    ],
+    "hard_terms_per_text": [
+     2.08,
+     0.06
+    ],
+    "len_ratio": [
+     0.55,
+     0.01
+    ],
+    "unseen_SARI": [
+     67.31,
+     0.37
+    ],
+    "unseen_rec": [
+     81.02,
+     1.68
+    ],
+    "unseen_neg": [
+     3.92,
+     1.11
+    ]
+   }
+  },
+  "V3": {
+   "weights": [
+    0.25,
+    1,
+    0,
+    0,
+    false
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     68.64,
+     0.34
+    ],
+    "chrF": [
+     72.79,
+     0.41
+    ],
+    "BLEU_char": [
+     76.11,
+     0.76
+    ],
+    "num_recall": [
+     81.08,
+     1.63
+    ],
+    "num_halluc_per100": [
+     11.65,
+     0.68
+    ],
+    "neg_lost_pct": [
+     3.78,
+     1.1
+    ],
+    "hard_terms_per_text": [
+     2.08,
+     0.06
+    ],
+    "len_ratio": [
+     0.55,
+     0.01
+    ],
+    "unseen_SARI": [
+     67.31,
+     0.37
+    ],
+    "unseen_rec": [
+     81.07,
+     1.64
+    ],
+    "unseen_neg": [
+     3.92,
+     1.11
+    ]
+   }
+  },
+  "V4": {
+   "weights": [
+    0.25,
+    1,
+    0,
+    0,
+    true
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     68.65,
+     0.34
+    ],
+    "chrF": [
+     72.78,
+     0.4
+    ],
+    "BLEU_char": [
+     76.07,
+     0.71
+    ],
+    "num_recall": [
+     80.52,
+     1.1
+    ],
+    "num_halluc_per100": [
+     11.71,
+     0.76
+    ],
+    "neg_lost_pct": [
+     3.78,
+     1.1
+    ],
+    "hard_terms_per_text": [
+     2.07,
+     0.06
+    ],
+    "len_ratio": [
+     0.54,
+     0.01
+    ],
+    "unseen_SARI": [
+     67.33,
+     0.37
+    ],
+    "unseen_rec": [
+     80.51,
+     1.23
+    ],
+    "unseen_neg": [
+     3.92,
+     1.11
+    ]
+   }
+  },
+  "V5": {
+   "weights": [
+    0.25,
+    1,
+    0.02,
+    0.25,
+    true
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     68.63,
+     0.34
+    ],
+    "chrF": [
+     72.62,
+     0.43
+    ],
+    "BLEU_char": [
+     75.83,
+     0.78
+    ],
+    "num_recall": [
+     80.36,
+     1.11
+    ],
+    "num_halluc_per100": [
+     11.71,
+     0.76
+    ],
+    "neg_lost_pct": [
+     3.78,
+     1.1
+    ],
+    "hard_terms_per_text": [
+     2.06,
+     0.06
+    ],
+    "len_ratio": [
+     0.54,
+     0.01
+    ],
+    "unseen_SARI": [
+     67.29,
+     0.35
+    ],
+    "unseen_rec": [
+     80.36,
+     1.26
+    ],
+    "unseen_neg": [
+     3.92,
+     1.11
+    ]
+   }
+  },
+  "V6": {
+   "weights": [
+    0.25,
+    1,
+    0.02,
+    0.25,
+    true
+   ],
+   "beam": "b8",
+   "base": "V5",
+   "metrics": {
+    "SARI": [
+     66.85,
+     0.27
+    ],
+    "chrF": [
+     70.56,
+     0.43
+    ],
+    "BLEU_char": [
+     74.33,
+     0.63
+    ],
+    "num_recall": [
+     80.36,
+     1.11
+    ],
+    "num_halluc_per100": [
+     11.71,
+     0.76
+    ],
+    "neg_lost_pct": [
+     3.78,
+     1.1
+    ],
+    "hard_terms_per_text": [
+     1.36,
+     0.05
+    ],
+    "len_ratio": [
+     0.55,
+     0.01
+    ]
+   }
+  }
+ },
+ "base_filt": {
+  "V0": {
+   "weights": [
+    0,
+    0,
+    99,
+    0,
+    false
+   ],
+   "beam": "b4",
+   "metrics": {
+    "SARI": [
+     67.48,
+     0.53
+    ],
+    "chrF": [
+     69.13,
+     0.64
+    ],
+    "BLEU_char": [
+     72.68,
+     0.93
+    ],
+    "num_recall": [
+     80.52,
+     1.18
+    ],
+    "num_halluc_per100": [
+     19.06,
+     2.07
+    ],
+    "neg_lost_pct": [
+     2.52,
+     0.34
+    ],
+    "hard_terms_per_text": [
+     2.06,
+     0.05
+    ],
+    "len_ratio": [
+     0.55,
+     0.01
+    ],
+    "unseen_SARI": [
+     66.34,
+     0.45
+    ],
+    "unseen_rec": [
+     79.73,
+     1.27
+    ],
+    "unseen_neg": [
+     3.25,
+     0.68
+    ]
+   }
+  },
+  "V1": {
+   "weights": [
+    0.5,
+    1,
+    0,
+    0,
+    false
+   ],
+   "beam": "b4",
+   "metrics": {
+    "SARI": [
+     67.44,
+     0.59
+    ],
+    "chrF": [
+     69.66,
+     0.62
+    ],
+    "BLEU_char": [
+     72.89,
+     0.81
+    ],
+    "num_recall": [
+     84.93,
+     0.43
+    ],
+    "num_halluc_per100": [
+     17.74,
+     1.77
+    ],
+    "neg_lost_pct": [
+     1.63,
+     0.71
+    ],
+    "hard_terms_per_text": [
+     2.11,
+     0.03
+    ],
+    "len_ratio": [
+     0.57,
+     0.01
+    ],
+    "unseen_SARI": [
+     66.45,
+     0.5
+    ],
+    "unseen_rec": [
+     83.88,
+     0.34
+    ],
+    "unseen_neg": [
+     2.0,
+     1.19
+    ]
+   }
+  },
+  "V2": {
+   "weights": [
+    0.5,
+    1,
+    0,
+    0,
+    false
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     67.37,
+     0.7
+    ],
+    "chrF": [
+     69.27,
+     0.79
+    ],
+    "BLEU_char": [
+     72.93,
+     0.8
+    ],
+    "num_recall": [
+     84.14,
+     1.1
+    ],
+    "num_halluc_per100": [
+     13.12,
+     0.49
+    ],
+    "neg_lost_pct": [
+     0.84,
+     0.39
+    ],
+    "hard_terms_per_text": [
+     2.05,
+     0.05
+    ],
+    "len_ratio": [
+     0.56,
+     0.01
+    ],
+    "unseen_SARI": [
+     66.58,
+     0.67
+    ],
+    "unseen_rec": [
+     83.41,
+     1.01
+    ],
+    "unseen_neg": [
+     1.18,
+     0.55
+    ]
+   }
+  },
+  "V3": {
+   "weights": [
+    0.25,
+    0.5,
+    0,
+    0,
+    false
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     67.42,
+     0.74
+    ],
+    "chrF": [
+     69.33,
+     0.87
+    ],
+    "BLEU_char": [
+     72.7,
+     0.48
+    ],
+    "num_recall": [
+     84.54,
+     1.37
+    ],
+    "num_halluc_per100": [
+     13.96,
+     1.53
+    ],
+    "neg_lost_pct": [
+     0.89,
+     0.32
+    ],
+    "hard_terms_per_text": [
+     2.07,
+     0.08
+    ],
+    "len_ratio": [
+     0.56,
+     0.01
+    ],
+    "unseen_SARI": [
+     66.63,
+     0.72
+    ],
+    "unseen_rec": [
+     83.87,
+     1.38
+    ],
+    "unseen_neg": [
+     1.26,
+     0.45
+    ]
+   }
+  },
+  "V4": {
+   "weights": [
+    0.25,
+    0.5,
+    0,
+    0,
+    true
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     67.4,
+     0.69
+    ],
+    "chrF": [
+     69.32,
+     0.78
+    ],
+    "BLEU_char": [
+     72.95,
+     0.78
+    ],
+    "num_recall": [
+     84.12,
+     1.38
+    ],
+    "num_halluc_per100": [
+     13.33,
+     0.32
+    ],
+    "neg_lost_pct": [
+     0.84,
+     0.39
+    ],
+    "hard_terms_per_text": [
+     2.05,
+     0.05
+    ],
+    "len_ratio": [
+     0.56,
+     0.01
+    ],
+    "unseen_SARI": [
+     66.62,
+     0.62
+    ],
+    "unseen_rec": [
+     83.43,
+     1.35
+    ],
+    "unseen_neg": [
+     1.18,
+     0.55
+    ]
+   }
+  },
+  "V5": {
+   "weights": [
+    0.25,
+    0.5,
+    0.02,
+    0.25,
+    true
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     67.44,
+     0.72
+    ],
+    "chrF": [
+     69.35,
+     0.88
+    ],
+    "BLEU_char": [
+     72.69,
+     0.52
+    ],
+    "num_recall": [
+     84.33,
+     1.53
+    ],
+    "num_halluc_per100": [
+     14.17,
+     1.34
+    ],
+    "neg_lost_pct": [
+     0.84,
+     0.39
+    ],
+    "hard_terms_per_text": [
+     2.07,
+     0.07
+    ],
+    "len_ratio": [
+     0.56,
+     0.01
+    ],
+    "unseen_SARI": [
+     66.69,
+     0.64
+    ],
+    "unseen_rec": [
+     83.7,
+     1.56
+    ],
+    "unseen_neg": [
+     1.18,
+     0.55
+    ]
+   }
+  },
+  "V6": {
+   "weights": [
+    0.25,
+    0.5,
+    0.02,
+    0.25,
+    true
+   ],
+   "beam": "b8",
+   "base": "V5",
+   "metrics": {
+    "SARI": [
+     65.59,
+     0.63
+    ],
+    "chrF": [
+     67.4,
+     0.88
+    ],
+    "BLEU_char": [
+     70.64,
+     0.23
+    ],
+    "num_recall": [
+     84.33,
+     1.53
+    ],
+    "num_halluc_per100": [
+     14.17,
+     1.34
+    ],
+    "neg_lost_pct": [
+     0.84,
+     0.39
+    ],
+    "hard_terms_per_text": [
+     1.36,
+     0.08
+    ],
+    "len_ratio": [
+     0.57,
+     0.01
+    ]
+   }
+  }
+ },
+ "summ": {
+  "V0": {
+   "weights": [
+    0,
+    0,
+    99,
+    0,
+    false
+   ],
+   "beam": "b4",
+   "metrics": {
+    "SARI": [
+     68.86,
+     0.34
+    ],
+    "chrF": [
+     71.37,
+     0.74
+    ],
+    "BLEU_char": [
+     74.11,
+     0.72
+    ],
+    "num_recall": [
+     76.53,
+     0.58
+    ],
+    "num_halluc_per100": [
+     15.7,
+     0.59
+    ],
+    "neg_lost_pct": [
+     4.88,
+     1.05
+    ],
+    "hard_terms_per_text": [
+     2.03,
+     0.03
+    ],
+    "len_ratio": [
+     0.53,
+     0.0
+    ],
+    "unseen_SARI": [
+     67.65,
+     0.34
+    ],
+    "unseen_rec": [
+     75.64,
+     0.55
+    ],
+    "unseen_neg": [
+     5.25,
+     1.23
+    ]
+   }
+  },
+  "V1": {
+   "weights": [
+    0.5,
+    1,
+    0,
+    0,
+    false
+   ],
+   "beam": "b4",
+   "metrics": {
+    "SARI": [
+     68.83,
+     0.2
+    ],
+    "chrF": [
+     71.98,
+     0.59
+    ],
+    "BLEU_char": [
+     75.36,
+     0.63
+    ],
+    "num_recall": [
+     80.55,
+     0.63
+    ],
+    "num_halluc_per100": [
+     14.75,
+     1.03
+    ],
+    "neg_lost_pct": [
+     3.57,
+     0.95
+    ],
+    "hard_terms_per_text": [
+     2.08,
+     0.04
+    ],
+    "len_ratio": [
+     0.55,
+     0.0
+    ],
+    "unseen_SARI": [
+     67.86,
+     0.22
+    ],
+    "unseen_rec": [
+     79.52,
+     0.57
+    ],
+    "unseen_neg": [
+     3.84,
+     1.09
+    ]
+   }
+  },
+  "V2": {
+   "weights": [
+    0.5,
+    1,
+    0,
+    0,
+    false
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     68.32,
+     0.31
+    ],
+    "chrF": [
+     71.23,
+     0.68
+    ],
+    "BLEU_char": [
+     74.46,
+     0.77
+    ],
+    "num_recall": [
+     81.23,
+     0.46
+    ],
+    "num_halluc_per100": [
+     11.65,
+     2.66
+    ],
+    "neg_lost_pct": [
+     3.36,
+     0.75
+    ],
+    "hard_terms_per_text": [
+     2.1,
+     0.03
+    ],
+    "len_ratio": [
+     0.54,
+     0.0
+    ],
+    "unseen_SARI": [
+     67.31,
+     0.49
+    ],
+    "unseen_rec": [
+     80.58,
+     0.5
+    ],
+    "unseen_neg": [
+     3.47,
+     0.73
+    ]
+   }
+  },
+  "V3": {
+   "weights": [
+    0.25,
+    0.5,
+    0,
+    0,
+    false
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     68.33,
+     0.31
+    ],
+    "chrF": [
+     71.31,
+     0.71
+    ],
+    "BLEU_char": [
+     74.58,
+     0.84
+    ],
+    "num_recall": [
+     81.45,
+     0.51
+    ],
+    "num_halluc_per100": [
+     11.92,
+     2.7
+    ],
+    "neg_lost_pct": [
+     3.46,
+     0.68
+    ],
+    "hard_terms_per_text": [
+     2.12,
+     0.05
+    ],
+    "len_ratio": [
+     0.54,
+     0.0
+    ],
+    "unseen_SARI": [
+     67.31,
+     0.49
+    ],
+    "unseen_rec": [
+     80.76,
+     0.61
+    ],
+    "unseen_neg": [
+     3.55,
+     0.63
+    ]
+   }
+  },
+  "V4": {
+   "weights": [
+    0.25,
+    0.5,
+    0,
+    0,
+    true
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     68.31,
+     0.3
+    ],
+    "chrF": [
+     71.25,
+     0.65
+    ],
+    "BLEU_char": [
+     74.49,
+     0.8
+    ],
+    "num_recall": [
+     80.87,
+     0.1
+    ],
+    "num_halluc_per100": [
+     11.97,
+     2.57
+    ],
+    "neg_lost_pct": [
+     3.41,
+     0.73
+    ],
+    "hard_terms_per_text": [
+     2.12,
+     0.05
+    ],
+    "len_ratio": [
+     0.54,
+     0.0
+    ],
+    "unseen_SARI": [
+     67.28,
+     0.48
+    ],
+    "unseen_rec": [
+     80.24,
+     0.29
+    ],
+    "unseen_neg": [
+     3.47,
+     0.73
+    ]
+   }
+  },
+  "V5": {
+   "weights": [
+    0.25,
+    0.5,
+    0.02,
+    0.25,
+    true
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     68.28,
+     0.3
+    ],
+    "chrF": [
+     71.11,
+     0.71
+    ],
+    "BLEU_char": [
+     74.23,
+     0.87
+    ],
+    "num_recall": [
+     80.65,
+     0.05
+    ],
+    "num_halluc_per100": [
+     11.97,
+     2.57
+    ],
+    "neg_lost_pct": [
+     3.41,
+     0.73
+    ],
+    "hard_terms_per_text": [
+     2.11,
+     0.05
+    ],
+    "len_ratio": [
+     0.54,
+     0.0
+    ],
+    "unseen_SARI": [
+     67.24,
+     0.49
+    ],
+    "unseen_rec": [
+     80.01,
+     0.28
+    ],
+    "unseen_neg": [
+     3.47,
+     0.73
+    ]
+   }
+  },
+  "V6": {
+   "weights": [
+    0.25,
+    0.5,
+    0.02,
+    0.25,
+    true
+   ],
+   "beam": "b8",
+   "base": "V5",
+   "metrics": {
+    "SARI": [
+     66.35,
+     0.36
+    ],
+    "chrF": [
+     69.04,
+     0.68
+    ],
+    "BLEU_char": [
+     72.8,
+     0.84
+    ],
+    "num_recall": [
+     80.65,
+     0.05
+    ],
+    "num_halluc_per100": [
+     11.97,
+     2.57
+    ],
+    "neg_lost_pct": [
+     3.41,
+     0.73
+    ],
+    "hard_terms_per_text": [
+     1.38,
+     0.03
+    ],
+    "len_ratio": [
+     0.55,
+     0.01
+    ]
+   }
+  }
+ },
+ "summ_filt": {
+  "V0": {
+   "weights": [
+    0,
+    0,
+    99,
+    0,
+    false
+   ],
+   "beam": "b4",
+   "metrics": {
+    "SARI": [
+     67.28,
+     0.66
+    ],
+    "chrF": [
+     68.46,
+     0.39
+    ],
+    "BLEU_char": [
+     71.31,
+     0.23
+    ],
+    "num_recall": [
+     80.7,
+     1.56
+    ],
+    "num_halluc_per100": [
+     17.48,
+     4.62
+    ],
+    "neg_lost_pct": [
+     2.31,
+     1.04
+    ],
+    "hard_terms_per_text": [
+     2.07,
+     0.05
+    ],
+    "len_ratio": [
+     0.55,
+     0.02
+    ],
+    "unseen_SARI": [
+     66.1,
+     0.69
+    ],
+    "unseen_rec": [
+     80.12,
+     1.79
+    ],
+    "unseen_neg": [
+     2.88,
+     1.41
+    ]
+   }
+  },
+  "V1": {
+   "weights": [
+    0.5,
+    1,
+    0,
+    0,
+    false
+   ],
+   "beam": "b4",
+   "metrics": {
+    "SARI": [
+     67.26,
+     0.64
+    ],
+    "chrF": [
+     69.09,
+     0.48
+    ],
+    "BLEU_char": [
+     71.75,
+     0.93
+    ],
+    "num_recall": [
+     85.01,
+     1.15
+    ],
+    "num_halluc_per100": [
+     14.86,
+     5.01
+    ],
+    "neg_lost_pct": [
+     1.68,
+     0.49
+    ],
+    "hard_terms_per_text": [
+     2.13,
+     0.03
+    ],
+    "len_ratio": [
+     0.57,
+     0.02
+    ],
+    "unseen_SARI": [
+     66.18,
+     0.64
+    ],
+    "unseen_rec": [
+     84.87,
+     1.26
+    ],
+    "unseen_neg": [
+     2.07,
+     0.58
+    ]
+   }
+  },
+  "V2": {
+   "weights": [
+    0.5,
+    1,
+    0,
+    0,
+    false
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     67.03,
+     0.4
+    ],
+    "chrF": [
+     68.67,
+     0.16
+    ],
+    "BLEU_char": [
+     71.68,
+     0.77
+    ],
+    "num_recall": [
+     85.33,
+     1.41
+    ],
+    "num_halluc_per100": [
+     11.23,
+     2.8
+    ],
+    "neg_lost_pct": [
+     0.52,
+     0.08
+    ],
+    "hard_terms_per_text": [
+     2.11,
+     0.01
+    ],
+    "len_ratio": [
+     0.56,
+     0.02
+    ],
+    "unseen_SARI": [
+     65.99,
+     0.31
+    ],
+    "unseen_rec": [
+     84.95,
+     1.62
+    ],
+    "unseen_neg": [
+     0.67,
+     0.18
+    ]
+   }
+  },
+  "V3": {
+   "weights": [
+    0.25,
+    0.5,
+    0,
+    0,
+    false
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     67.02,
+     0.41
+    ],
+    "chrF": [
+     68.68,
+     0.14
+    ],
+    "BLEU_char": [
+     71.67,
+     0.82
+    ],
+    "num_recall": [
+     85.44,
+     1.42
+    ],
+    "num_halluc_per100": [
+     11.5,
+     2.82
+    ],
+    "neg_lost_pct": [
+     0.52,
+     0.08
+    ],
+    "hard_terms_per_text": [
+     2.12,
+     0.01
+    ],
+    "len_ratio": [
+     0.56,
+     0.02
+    ],
+    "unseen_SARI": [
+     65.97,
+     0.32
+    ],
+    "unseen_rec": [
+     85.11,
+     1.63
+    ],
+    "unseen_neg": [
+     0.67,
+     0.18
+    ]
+   }
+  },
+  "V4": {
+   "weights": [
+    0.25,
+    0.5,
+    0,
+    0,
+    true
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     67.03,
+     0.44
+    ],
+    "chrF": [
+     68.68,
+     0.14
+    ],
+    "BLEU_char": [
+     71.71,
+     0.8
+    ],
+    "num_recall": [
+     85.18,
+     1.36
+    ],
+    "num_halluc_per100": [
+     11.39,
+     2.57
+    ],
+    "neg_lost_pct": [
+     0.52,
+     0.08
+    ],
+    "hard_terms_per_text": [
+     2.11,
+     0.01
+    ],
+    "len_ratio": [
+     0.56,
+     0.02
+    ],
+    "unseen_SARI": [
+     66.0,
+     0.35
+    ],
+    "unseen_rec": [
+     84.78,
+     1.52
+    ],
+    "unseen_neg": [
+     0.67,
+     0.18
+    ]
+   }
+  },
+  "V5": {
+   "weights": [
+    0.25,
+    0.5,
+    0.02,
+    0.5,
+    true
+   ],
+   "beam": "b8",
+   "metrics": {
+    "SARI": [
+     66.94,
+     0.39
+    ],
+    "chrF": [
+     68.52,
+     0.24
+    ],
+    "BLEU_char": [
+     71.5,
+     0.79
+    ],
+    "num_recall": [
+     85.03,
+     1.44
+    ],
+    "num_halluc_per100": [
+     11.34,
+     2.6
+    ],
+    "neg_lost_pct": [
+     0.58,
+     0.08
+    ],
+    "hard_terms_per_text": [
+     2.11,
+     0.01
+    ],
+    "len_ratio": [
+     0.56,
+     0.02
+    ],
+    "unseen_SARI": [
+     65.87,
+     0.31
+    ],
+    "unseen_rec": [
+     84.64,
+     1.62
+    ],
+    "unseen_neg": [
+     0.74,
+     0.21
+    ]
+   }
+  },
+  "V6": {
+   "weights": [
+    0.25,
+    0.5,
+    0.02,
+    0.5,
+    true
+   ],
+   "beam": "b8",
+   "base": "V5",
+   "metrics": {
+    "SARI": [
+     65.2,
+     0.33
+    ],
+    "chrF": [
+     66.62,
+     0.21
+    ],
+    "BLEU_char": [
+     69.82,
+     1.3
+    ],
+    "num_recall": [
+     85.03,
+     1.44
+    ],
+    "num_halluc_per100": [
+     11.34,
+     2.6
+    ],
+    "neg_lost_pct": [
+     0.58,
+     0.08
+    ],
+    "hard_terms_per_text": [
+     1.38,
+     0.02
+    ],
+    "len_ratio": [
+     0.57,
+     0.02
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,10 @@
+import pandas as pd, json, re
+tr=pd.read_csv("data/split_train.csv"); te=pd.read_csv("data/split_test.csv")
+n=lambda s: re.sub(r"\s+","",str(s))
+T=set(tr.target_easy.map(n)); S=set(tr.source_expert.map(n))
+te["tgt_in_train"]=te.target_easy.map(n).isin(T)
+print("test tgt exact in train:", round(100*te.tgt_in_train.mean(),1),"%")
+print(te.groupby("section").tgt_in_train.mean().round(3).to_dict())
+p=pd.read_csv("results/pred_kobart-base-v2_s0.csv"); print(p.columns.tolist())
+json.dump({"tgt_in_train_pct":round(100*te.tgt_in_train.mean(),2)},open("results/leak.json","w"))
+te[["tgt_in_train"]].to_csv("results/test_leakflag.csv",index=False)

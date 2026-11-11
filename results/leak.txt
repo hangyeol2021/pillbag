@@ -1,0 +1,3 @@
+test tgt exact in train: 29.0 %
+{'용법': 0.287, '주의사항': 0.285, '효능': 0.296}
+['section', 'item_name', 'source', 'reference', 'plain', 'fact_rerank']

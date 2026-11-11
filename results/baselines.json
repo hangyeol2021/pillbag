@@ -1,0 +1,32 @@
+{
+ "copy": {
+  "SARI": 13.1,
+  "chrF": 48.6,
+  "BLEU_char": 35.39,
+  "num_recall": 100.0,
+  "num_halluc_per100": 0.0,
+  "neg_lost_pct": 0.0,
+  "hard_terms_per_text": 5.038,
+  "len_ratio": 1.0
+ },
+ "rule": {
+  "SARI": 33.17,
+  "chrF": 47.17,
+  "BLEU_char": 33.88,
+  "num_recall": 100.0,
+  "num_halluc_per100": 0.0,
+  "neg_lost_pct": 0.0,
+  "hard_terms_per_text": 0.431,
+  "len_ratio": 1.024
+ },
+ "reference(e약은요)": {
+  "SARI": 95.2,
+  "chrF": 100.0,
+  "BLEU_char": 100.0,
+  "num_recall": 79.93,
+  "num_halluc_per100": 16.22,
+  "neg_lost_pct": 5.98,
+  "hard_terms_per_text": 2.227,
+  "len_ratio": 0.562
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "model": "gogamza/kobart-base-v2",
+ "seed": 2,
+ "train_frac": 1.0,
+ "n_train": 5168,
+ "best_val_loss": 0.361297233402729,
+ "plain": {
+  "SARI": 68.88,
+  "chrF": 71.37,
+  "BLEU_char": 73.5,
+  "num_recall": 74.96,
+  "num_halluc_per100": 18.58,
+  "neg_lost_pct": 5.51,
+  "hard_terms_per_text": 1.983,
+  "len_ratio": 0.515
+ },
+ "fact_rerank": {
+  "SARI": 69.03,
+  "chrF": 72.6,
+  "BLEU_char": 75.44,
+  "num_recall": 78.86,
+  "num_halluc_per100": 15.91,
+  "neg_lost_pct": 3.94,
+  "hard_terms_per_text": 2.014,
+  "len_ratio": 0.534
+ },
+ "train_sec": 463,
+ "metric_version": 3
+}

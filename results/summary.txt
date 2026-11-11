@@ -1,0 +1,8 @@
+method                                      n             SARI             chrF       num_recall num_halluc_per100     neg_lost_pct hard_terms_per_text        len_ratio
+copy                                        1             13.1             48.6            100.0              0.0              0.0            5.038              1.0
+rule                                        1            33.17            47.17            100.0              0.0              0.0            0.431            1.024
+reference(e약은요)                             1             95.2            100.0            79.93            16.22             5.98            2.227            0.562
+kobart-base-v2 | fact_rerank                3     68.64±0.34       72.79±0.74       80.32±1.41       17.01±4.0         3.52±0.95        2.09±0.07        0.55±0.01  
+kobart-base-v2 | plain                      3     68.55±0.33       71.71±0.89       75.98±1.21       18.37±4.24        4.99±0.98        2.03±0.07        0.53±0.01  
+kobart-summarization | fact_rerank          3      68.9±0.14        72.0±0.58       80.52±0.5         14.7±1.04        3.62±1.02        2.08±0.03        0.55±0.0   
+kobart-summarization | plain                3     68.92±0.3        71.36±0.74       76.48±0.5        15.59±0.68        4.99±1.07        2.03±0.03        0.53±0.0   

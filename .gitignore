@@ -1,0 +1,24 @@
+# secrets / server info
+.env
+web_link.md
+# large / raw
+ckpt/
+smoke/
+data/
+data_test30/
+*.pt
+*.bin
+*.safetensors
+results/cands/
+results/snapshot_v1/
+results/pred_*.csv
+results/test_leakflag.csv
+results/demo_api_cache.json
+logs/
+# env
+__pycache__/
+.ipynb_checkpoints/
+.gradio/
+*.pyc
+# third-party sample image
+demo/pharmacy_bag.png

@@ -1,0 +1,244 @@
+{
+ "copy": {
+  "SARI": [
+   13.1,
+   0.0
+  ],
+  "chrF": [
+   48.6,
+   0.0
+  ],
+  "BLEU_char": [
+   35.39,
+   0.0
+  ],
+  "num_recall": [
+   100.0,
+   0.0
+  ],
+  "num_halluc_per100": [
+   0.0,
+   0.0
+  ],
+  "neg_lost_pct": [
+   0.0,
+   0.0
+  ],
+  "hard_terms_per_text": [
+   5.038,
+   0.0
+  ],
+  "len_ratio": [
+   1.0,
+   0.0
+  ]
+ },
+ "rule": {
+  "SARI": [
+   33.17,
+   0.0
+  ],
+  "chrF": [
+   47.17,
+   0.0
+  ],
+  "BLEU_char": [
+   33.88,
+   0.0
+  ],
+  "num_recall": [
+   100.0,
+   0.0
+  ],
+  "num_halluc_per100": [
+   0.0,
+   0.0
+  ],
+  "neg_lost_pct": [
+   0.0,
+   0.0
+  ],
+  "hard_terms_per_text": [
+   0.431,
+   0.0
+  ],
+  "len_ratio": [
+   1.024,
+   0.0
+  ]
+ },
+ "reference(e약은요)": {
+  "SARI": [
+   95.2,
+   0.0
+  ],
+  "chrF": [
+   100.0,
+   0.0
+  ],
+  "BLEU_char": [
+   100.0,
+   0.0
+  ],
+  "num_recall": [
+   79.93,
+   0.0
+  ],
+  "num_halluc_per100": [
+   16.22,
+   0.0
+  ],
+  "neg_lost_pct": [
+   5.98,
+   0.0
+  ],
+  "hard_terms_per_text": [
+   2.227,
+   0.0
+  ],
+  "len_ratio": [
+   0.562,
+   0.0
+  ]
+ },
+ "kobart-base-v2 | fact_rerank": {
+  "SARI": [
+   68.64,
+   0.34
+  ],
+  "chrF": [
+   72.79,
+   0.74
+  ],
+  "BLEU_char": [
+   75.89,
+   0.78
+  ],
+  "num_recall": [
+   80.32,
+   1.41
+  ],
+  "num_halluc_per100": [
+   17.01,
+   4.0
+  ],
+  "neg_lost_pct": [
+   3.52,
+   0.95
+  ],
+  "hard_terms_per_text": [
+   2.09,
+   0.07
+  ],
+  "len_ratio": [
+   0.55,
+   0.01
+  ],
+  "n_seeds": 3
+ },
+ "kobart-base-v2 | plain": {
+  "SARI": [
+   68.55,
+   0.33
+  ],
+  "chrF": [
+   71.71,
+   0.89
+  ],
+  "BLEU_char": [
+   74.39,
+   1.42
+  ],
+  "num_recall": [
+   75.98,
+   1.21
+  ],
+  "num_halluc_per100": [
+   18.37,
+   4.24
+  ],
+  "neg_lost_pct": [
+   4.99,
+   0.98
+  ],
+  "hard_terms_per_text": [
+   2.03,
+   0.07
+  ],
+  "len_ratio": [
+   0.53,
+   0.01
+  ],
+  "n_seeds": 3
+ },
+ "kobart-summarization | fact_rerank": {
+  "SARI": [
+   68.9,
+   0.14
+  ],
+  "chrF": [
+   72.0,
+   0.58
+  ],
+  "BLEU_char": [
+   75.36,
+   0.59
+  ],
+  "num_recall": [
+   80.52,
+   0.5
+  ],
+  "num_halluc_per100": [
+   14.7,
+   1.04
+  ],
+  "neg_lost_pct": [
+   3.62,
+   1.02
+  ],
+  "hard_terms_per_text": [
+   2.08,
+   0.03
+  ],
+  "len_ratio": [
+   0.55,
+   0.0
+  ],
+  "n_seeds": 3
+ },
+ "kobart-summarization | plain": {
+  "SARI": [
+   68.92,
+   0.3
+  ],
+  "chrF": [
+   71.36,
+   0.74
+  ],
+  "BLEU_char": [
+   74.06,
+   0.69
+  ],
+  "num_recall": [
+   76.48,
+   0.5
+  ],
+  "num_halluc_per100": [
+   15.59,
+   0.68
+  ],
+  "neg_lost_pct": [
+   4.99,
+   1.07
+  ],
+  "hard_terms_per_text": [
+   2.03,
+   0.03
+  ],
+  "len_ratio": [
+   0.53,
+   0.0
+  ],
+  "n_seeds": 3
+ }
+}

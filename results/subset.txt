@@ -1,0 +1,17 @@
+                                          SARI          chrF num_recall num_halluc_per100 neg_lost_pct
+                                          mean   std    mean       mean              mean         mean
+subset model                kind                                                                      
+seen   kobart-base-v2       fact_rerank  71.98  0.55   76.48      80.45             19.20         2.90
+                            plain        72.38  0.53   76.12      76.63             21.38         5.07
+       kobart-summarization fact_rerank  71.31  1.01   74.91      83.17             14.67         3.08
+                            plain        71.88  0.94   75.11      78.96             15.03         4.35
+       llm_qwen7b           llm          35.57   NaN   28.50      85.68              1.09         3.80
+       reference            -            93.89   NaN  100.00      77.66             10.33         4.89
+       rule                 -            32.78   NaN   43.73     100.00              0.00         0.00
+unseen kobart-base-v2       fact_rerank  67.29  0.38   71.47      80.27             16.11         3.77
+                            plain        66.98  0.42   70.13      75.73             17.15         4.95
+       kobart-summarization fact_rerank  67.91  0.36   70.95      79.52             14.71         3.84
+                            plain        67.71  0.47   70.01      75.55             15.82         5.25
+       llm_qwen7b           llm          33.37   NaN   31.92      82.93              1.77         8.87
+       reference            -            95.73   NaN  100.00      80.79             18.63         6.43
+       rule                 -            33.32   NaN   48.43     100.00              0.00         0.00
