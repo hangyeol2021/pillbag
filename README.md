@@ -4,6 +4,10 @@
 
 > 학습용 시연이며 의사·약사의 복약 지도를 대신하지 않습니다.
 
+**▶ 데모: [http://3.36.101.140:7860](http://3.36.101.140:7860/)** · AI 활용 기록: [AI_LOG.md](AI_LOG.md)
+
+![PillBag 데모 화면](demo/demo_screenshot.jpg)
+
 ## 파이프라인
 ```
 사진 → 이미지 보정 → EasyOCR(약 이름 인식) → 식약처 허가정보 API 조회
@@ -44,3 +48,4 @@ python web_app.py      # Gradio 데모 (ckpt/ 에 학습된 가중치 필요)
 
 ## 기술 스택
 Python · PyTorch · Hugging Face Transformers · EasyOCR · Gradio · 공공데이터 API
+
