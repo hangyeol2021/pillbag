@@ -8,3 +8,7 @@ numpy
 requests
 rouge_score
 Pillow
+sacrebleu
+matplotlib
+koreanize-matplotlib
+huggingface_hub

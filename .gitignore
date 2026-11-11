@@ -22,3 +22,12 @@ __pycache__/
 *.pyc
 # third-party sample image
 demo/pharmacy_bag.png
+
+# old versions (kept locally)
+metrics_v1.py
+metrics_v2.py
+pillbag_core_v1.py
+patch_demo.py
+patch_metrics.py
+dl_models2.py
+laneB2.sh
